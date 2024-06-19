@@ -344,3 +344,48 @@ Ces choix de composants permettent au Maze Mouse d'être un robot efficace, pré
 
 
 Assurez-vous de vérifier chaque étape après l'assemblage pour garantir que toutes les connexions sont correctement effectuées et que tous les composants sont solidement fixés.
+
+### Implémentation du Code avec Thonny
+
+Pour programmer le robot Maze Mouse, nous utilisons Thonny, un environnement de développement intégré (IDE) convivial pour Python et MicroPython. Voici les étapes pour configurer et implémenter le code sur l'ESP32 en utilisant Thonny.
+
+#### Étape 1 : Installation de Thonny
+1. **Téléchargement** :
+   - Rendez-vous sur le site officiel de Thonny : [thonny.org](https://thonny.org/)
+   - Téléchargez la version appropriée pour votre système d'exploitation (Windows, macOS, Linux).
+
+2. **Installation** :
+   - Suivez les instructions d'installation spécifiques à votre système d'exploitation.
+
+#### Étape 2 : Configuration de Thonny pour MicroPython
+1. **Connexion de l'ESP32** :
+   - Connectez votre ESP32 à votre ordinateur à l'aide d'un câble USB.
+
+2. **Sélection du microcontrôleur** :
+   - Ouvrez Thonny.
+   - Allez dans le menu `Outils` -> `Options...`.
+   - Dans l'onglet `Interpréteur`, sélectionnez `MicroPython (ESP32)` dans le menu déroulant.
+   - Sélectionnez le port série correspondant à votre ESP32 (par exemple, `COM3` sous Windows ou `/dev/ttyUSB0` sous Linux).
+
+3. **Installation du firmware MicroPython** :
+   - Si votre ESP32 n'a pas encore MicroPython installé, vous pouvez le faire via Thonny. Suivez les instructions sur l'interface de Thonny pour flasher le firmware MicroPython.
+
+#### Étape 3 : Écriture et Téléversement du Code
+1. **Création du Script** :
+   - Dans Thonny, créez un nouveau fichier en allant dans `Fichier` -> `Nouveau`.
+   - Écrivez votre code Python/MicroPython pour le robot Maze Mouse. Assurez-vous d'implémenter l'algorithme de Trémaux dans un fichier nommé `tremaux.py`.
+
+2. **Téléversement du Code** :
+   - Sauvegardez votre script sur l'ESP32 en allant dans `Fichier` -> `Enregistrer sous...` et sélectionnez l'ESP32 comme destination.
+   - Cliquez sur `Run` pour exécuter le script sur l'ESP32.
+
+#### Étape 4 : Débogage et Test
+1. **Surveillance Série** :
+   - Utilisez l'interface de Thonny pour surveiller les messages série et les sorties de débogage de votre script.
+   - Ajustez votre code selon les besoins en fonction des retours et des comportements observés.
+
+2. **Itération** :
+   - Répétez les étapes d'écriture, téléversement, et test jusqu'à ce que le comportement du robot soit conforme aux attentes.
+
+Avec ces étapes, vous pouvez configurer Thonny et implémenter le code pour contrôler le robot Maze Mouse en utilisant l'algorithme de Trémaux. Assurez-vous de tester régulièrement et de peaufiner votre code pour optimiser les performances du robot.
+
