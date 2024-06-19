@@ -283,4 +283,6 @@ Pour le projet Maze Mouse, chaque composant a été sélectionné en fonction de
 ---
 
 N'hésite pas à me poser des questions supplémentaires ou à me demander des précisions sur certaines parties du document. Je suis ici pour t'aider à compléter et à améliorer ta documentation.
+![Texte alternatif](Images/Elec").
 
+Images/Elec
