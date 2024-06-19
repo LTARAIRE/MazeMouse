@@ -23,9 +23,8 @@ Bienvenue dans la documentation du robot Maze Mouse, conçu pour naviguer de man
 ## Description du Robot
 Le Maze Mouse est un robot autonome équipé de l'ESP32, de capteurs infrarouges et de roues codeuses, lui permettant de naviguer avec précision dans des labyrinthes et des environnements inconnus.
 
-**Photos et diagrammes :**
-- [ ] Ajouter des photos du robot Maze Mouse
-- ![Schemas](Images/Cablage.jpg)
+**Photos :**
+- ![Robot](Images/robot.jpg)
 
 ## Algorithme de Trémaux
 L'algorithme de Trémaux permet au Maze Mouse de marquer les chemins parcourus et de trouver systématiquement la sortie d'un labyrinthe. Ce système de marquage évite les impasses et optimise la navigation.
@@ -90,7 +89,7 @@ Un des principaux défis rencontrés est le problème de l'îlot. Lorsqu'un robo
 - **Simulation et Tests** : Nous continuons à tester cette optimisation dans notre simulateur pour valider son efficacité avant de l'implémenter sur le robot physique.
 
 **Photos et explications :**
-- ![Photo de l'interface de simulation](Images/Simulation.jpg)
+- ![Photo de l'interface de simulation](Video/ilot.gif)
   - **Description** : Interface de simulation montrant les chemins marqués par le robot, illustrant le problème de l'îlot.
 
 ### Problème de la Précision des Capteurs
@@ -105,10 +104,8 @@ Un autre défi rencontré est lié à la précision des capteurs infrarouges. Le
 - **Utilisation de Capteurs Additionnels** : En complément, nous envisageons d'ajouter d'autres types de capteurs, tels que des capteurs à ultrasons, pour obtenir des mesures redondantes et augmenter la fiabilité de la détection des obstacles.
 
 **Photos et explications :**
-- ![Photo des capteurs IR](Images/CapteursIR.jpg)
+- ![Photo des capteurs IR](Images/Sharp.jpg)
   - **Description** : Cette photo montre les capteurs infrarouges utilisés sur le robot, avec des annotations indiquant les points de calibration.
-- ![Photo de l'interface de calibration](Images/Calibration.jpg)
-  - **Description** : Interface de calibration utilisée pour ajuster les paramètres des capteurs IR et améliorer leur précision.
 
 En résolvant ces défis, nous visons à améliorer significativement les performances du Maze Mouse dans des environnements réels et complexes, assurant ainsi une navigation plus fiable et efficace.
 
@@ -138,7 +135,7 @@ Pour le projet Maze Mouse, chaque composant a été sélectionné en fonction de
 - **Consommation d'énergie** : Il est relativement économe en énergie, ce qui est crucial pour une autonomie prolongée du robot.
 
 **Photo :**
-- ![Photo de l'ESP32](Images/ESP32.jpg)
+- ![Photo de l'ESP32](Images/esp32.jpg)
 
 #### 2. Capteur de Distance IR : Sharp GP2Y0A21YK0F
 - **Précision** : Ce capteur offre une mesure de distance précise de 10 cm à 80 cm, ce qui est idéal pour détecter la proximité des murs et obstacles dans un labyrinthe.
@@ -154,12 +151,11 @@ Pour le projet Maze Mouse, chaque composant a été sélectionné en fonction de
 - **Protection thermique** : Le L298N est équipé de protections contre la surchauffe et les courts-circuits, assurant une longue durée de vie et une sécurité accrue pour les composants du robot.
 
 **Photo :**
-- ![Photo du module L298N](Images/L298N.jpg)
+- ![Photo du module L298N](Images/Sans titre.jpg)
 
 **Diagrammes :**
-- ![Diagramme de l'ESP32 connecté aux capteurs et au module de contrôle de moteur](Images/ESP32-Diagramme.jpg)
-- ![Diagramme des connexions des capteurs Sharp](Images/Sharp-Diagramme.jpg)
-- ![Diagramme des connexions du module L298N](Images/L298N-Diagramme.jpg)
+- ![](Images/schemas.jpeg)
+- ![Diagramme des connexions](Images/Elec)
 
 Ces choix de composants permettent au Maze Mouse d'être un robot efficace, précis et adaptable, capable de relever les défis posés par les labyrinthes complexes et d'autres environnements dynamiques.
 
@@ -322,30 +318,29 @@ Ces choix de composants permettent au Maze Mouse d'être un robot efficace, pré
 
 1. **Visser la bille** :
    - Fixez la bille à la base du robot pour permettre une mobilité fluide.
-   - ![Photo de la bille fixée](Images/Bille.jpg)
+   - ![Photo de la bille fixée](Images/bille (2).jpg)
 
 2. **Visser le L298N** :
    - Fixez le module de contrôle de moteur L298N à l'emplacement prévu sur la base du robot.
-   - ![Photo du module L298N fixé](Images/L298N.jpg)
+   - ![Photo du module L298N fixé](Images/l298n.jpg)
 
 3. **Visser les capteurs Sharp** :
    - Installez les trois capteurs infrarouges Sharp GP2Y0A21YK0F aux positions désignées à l'avant du robot pour une détection optimale.
-   - ![Photo des capteurs Sharp installés](Images/Sharp.jpg)
 
 4. **Monter les moteurs** :
    - Placez les moteurs dans leurs emplacements respectifs et fixez-les avec de la colle chaude pour assurer leur stabilité.
-   - ![Photo des moteurs fixés](Images/Moteurs.jpg)
+   - ![Photo des moteurs fixés](Images/moteur.jpg)
 
 5. **Monter les pneus sur les roues** :
    - Assemblez les pneus sur les roues pour préparer les unités de propulsion du robot.
-   - ![Photo des pneus montés sur les roues](Images/Pneus.jpg)
+   - ![Photo des pneus montés sur les roues](Images/roue.jpg)
 
 6. **Mettre les roues sur les axes** :
    - Fixez les roues montées sur les axes des moteurs pour permettre la mobilité du robot.
-   - ![Photo des roues fixées sur les axes](Images/Roues.jpg)
+   - ![Photo des roues fixées sur les axes](Images/robot.jpg)
 
 7. **Câbler les composants** :
    - Connectez les composants entre eux selon le schéma électrique fourni. Assurez-vous que toutes les connexions sont sécurisées et correctes.
-   - ![Photo du câblage complet](Images/Cablage.jpg)
+
 
 Assurez-vous de vérifier chaque étape après l'assemblage pour garantir que toutes les connexions sont correctement effectuées et que tous les composants sont solidement fixés.
