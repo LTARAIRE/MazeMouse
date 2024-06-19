@@ -73,17 +73,7 @@ Pour le projet Maze Mouse, chaque composant a été sélectionné en fonction de
 - **Facilité d'intégration** : La sortie analogique du capteur est facile à lire avec l'ESP32, permettant une intégration simple et efficace.
 - **Fiabilité** : Les capteurs Sharp sont connus pour leur fiabilité et leur performance stable dans diverses conditions d'éclairage.
 
-#### 3. Module de Suivi de Ligne Infrarouge : TCRT5000
-- **Simplicité** : Le TCRT5000 est simple à utiliser et à interfacer avec des microcontrôleurs, fournissant une sortie numérique facile à traiter.
-- **Adaptabilité** : Il peut être ajusté pour détecter des objets à des distances courtes, idéal pour la détection de proximité immédiate et pour éviter les collisions dans des espaces restreints.
-- **Coût** : Ce capteur est économique, ce qui est avantageux pour maintenir les coûts du projet bas.
-
-#### 4. Module de Suivi de Ligne IR : Pololu QTR-8RC
-- **Multi-capteurs** : Ce module comprend 8 capteurs IR, permettant une détection de bordure plus précise et fiable dans un labyrinthe.
-- **Haute sensibilité** : Il peut détecter des lignes ou des bords jusqu'à une distance de 3 cm, ce qui est utile pour un suivi précis du chemin.
-- **Modularité** : Chaque capteur individuel peut être utilisé indépendamment, offrant une grande flexibilité dans le design et l'optimisation du robot.
-
-#### 5. Module de Contrôle de Moteur : L298N
+#### 3. Module de Contrôle de Moteur : L298N
 - **Capacité de courant** : Le L298N peut contrôler des moteurs avec un courant jusqu'à 2A par canal, permettant de gérer les moteurs de manière efficace.
 - **Contrôle bidirectionnel** : Il offre la possibilité de contrôler la direction de rotation des moteurs, essentielle pour les manœuvres dans le labyrinthe.
 - **Protection thermique** : Le L298N est équipé de protections contre la surchauffe et les courts-circuits, assurant une longue durée de vie et une sécurité accrue pour les composants du robot.
@@ -171,6 +161,9 @@ Pour le projet Maze Mouse, chaque composant a été sélectionné en fonction de
   - Wi-Fi: 802.11 b/g/n
   - UART, SPI, I2C
 
+#### Schematique
+![Shéma élec](Images/Elec).
+
 ## Liste des Ressources pour le Projet Robot Labyrinthe
 
 ### Logiciels
@@ -247,42 +240,3 @@ Pour le projet Maze Mouse, chaque composant a été sélectionné en fonction de
 ### Labyrinthe
 
 - **Panneau de contreplaqué p. bricolage 300x200x4 mm**
-
-## Notes pour les Ajouts et Améliorations
-
-### Gestion de Projet (30 pts)
-- **Utilisation des outils (6 pts)** :
-  - Ajouter des captures d'écran ou des descriptions détaillées de l'utilisation des outils comme Miro, Fusion 360, etc.
-- **Gestion des ressources (8 pts)** :
-  - Inclure des détails sur la gestion et l'acquisition des ressources, comme les fournisseurs et la gestion des stocks.
-- **Gestion du temps (8 pts)** :
-  - Ajouter un planning ou un échéancier montrant les différentes phases du projet et les deadlines respectées.
-
-### Réalisation Technique (45 pts)
-- **Réalisation des fonctionnalités (10 pts)** :
-  - Détailler les fonctionnalités principales du robot, comme la détection des obstacles et l'utilisation de l'algorithme de Trémaux.
-- **Justification des fonctionnalités (8 pts)** :
-  - Justifier chaque fonctionnalité et expliquer pourquoi elles sont nécessaires.
-- **Optimisation des choix (7 pts)** :
-  - Décrire les processus de sélection et d'optimisation des composants et des technologies utilisées.
-- **Fiabilité des fonctionnalités (5 pts)** :
-  - Ajouter des résultats de tests montrant la fiabilité des fonctionnalités.
-- **Difficulté technique réalisée (10 pts)** :
-  - Mettre en avant les aspects techniques les plus complexes du projet et comment ils ont été résolus.
-- **Ergonomie du système (5 pts)** :
-  - Décrire la facilité d'utilisation et la maintenance du robot.
-
-### Documentation (25 pts)
-- **Notice (3.5 pts)** :
-  - Assurer que la notice est claire, concise et bien structurée.
-- **Datasheet (4.5 pts)** :
-  - S'assurer que la fiche technique est complète et bien détaillée.
-- **Qualité du support (5 pts)** :
-  - Vérifier qu'il n'y a pas d'erreurs grammaticales, que la mise en page est propre, et que les informations sont bien organisées.
-
----
-
-N'hésite pas à me poser des questions supplémentaires ou à me demander des précisions sur certaines parties du document. Je suis ici pour t'aider à compléter et à améliorer ta documentation.
-![Texte alternatif](Images/Elec).
-
-Images/Elec
